@@ -1,0 +1,23 @@
+{
+    "name": "yourname/php-eav-etl",
+    "description": "Lightweight ETL library for WordPress EAV to relational data",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EavEtl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EavEtl\\Tests\\": "tests/"
+        }
+    }
+}
